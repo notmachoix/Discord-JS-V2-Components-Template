@@ -1,0 +1,26 @@
+{
+  "name": "discord-bot-template",
+  "version": "1.0.0",
+  "description": "A functional Discord.js v14 bot template with slash commands, message commands, buttons, select menus, modals, event handling, and optional clustering.",
+  "license": "ISC",
+  "keywords": [
+    "discord.js",
+    "v14",
+    "template",
+    "discord-bot",
+    "discord-hybrid-sharding"
+  ],
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "node scripts/dev.js",
+    "prod": "node scripts/prod.js"
+  },
+  "type": "commonjs",
+  "author": "",
+  "dependencies": {
+    "discord-hybrid-sharding": "^3.0.1",
+    "discord.js": "^14.26.2",
+    "dotenv": "^17.4.0"
+  }
+}
