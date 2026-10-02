@@ -7,6 +7,6 @@ module.exports = {
         MemberLeaveLog: "",
         MemberRoleLog: "",
 
-        ModerationLog: "1547596741254316202",
+        ModerationLog: "",
     },
 };
